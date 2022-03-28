@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 15px 20px 15px;
+  padding: 50px var(--horizontal-space);
+  padding-bottom: 30px;
 }
 
 .screen-header__title {
@@ -10,6 +11,15 @@
   font-weight: 600;
 }
 
-.screen-header__icons span {
+.screen-header__icons > span {
   margin-left: 15px;
+}
+
+.screen-header__icons span:last-child {
+  position: relative;
+}
+
+.screen-header__icons .badge-dot {
+  left: 20px;
+  bottom: 20px;
 }
