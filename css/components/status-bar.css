@@ -5,6 +5,7 @@
   box-sizing: border-box;
   padding: 5px 3px;
   background-color: white;
+  z-index: 2;
 }
 
 .status-bar__column {

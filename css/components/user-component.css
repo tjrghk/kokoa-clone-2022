@@ -1,4 +1,5 @@
 .user-component {
+  cursor: pointer;
   justify-content: space-between;
 }
 
